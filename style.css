@@ -1,0 +1,519 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0065c3 ;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    color: white;
+}
+
+.head {
+    background-color: #0065c3;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+
+}
+
+.head_info {
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    margin-left: -20px;
+    display: flex;
+    list-style-type: none;
+}
+
+.drop_down {
+    margin-left: -17px;
+    margin-top: 37px;
+    width: 23px;
+    height: 23px;
+}
+
+.head_mat {
+
+    margin-right: 20px;
+    font-size: 14px;
+    margin: 15px;
+}
+
+#head_left {
+    margin-right: 20px;
+    margin-left: 45px;
+}
+
+.head_left1 {
+    margin-left: 30px;
+}
+
+.head_drop {
+    margin-top: 40px;
+}
+
+.button_left {
+    margin-left: 580px;
+    margin-top: 28px;
+}
+
+#button_left {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: #0065c3;
+    border: 2px solid white;
+
+}
+
+.front_1st {
+    background-image: url(./material/pictures/background_FRONT.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    top: 80px;
+    background-repeat: no-repeat;
+    margin-top: 92px;
+}
+
+.front_info {
+    list-style-type: none;
+    display: flex;
+}
+
+#two_bottels_pic {
+    margin-left: -190px;
+    margin-top: 100px;
+    width: 850px;
+    height: 680px;
+    z-index: 1;
+}
+
+.ul_remove {
+    list-style-type: none;
+}
+
+#music_unlock_pic {
+    margin-top: 90px;
+    margin-left: -50px;
+    width: 550px;
+    height: 350px;
+}
+
+#button_unlock {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.parghraph_info {
+    color: white;
+    font-size: 70%;
+    text-align: center;
+    margin-top: 55px;
+    margin-left: -35px;
+}
+
+.front_2nd {
+    background-color: #000;
+    width: 100%;
+    height: 670px;
+    margin-top: -120px;
+    z-index: 2;
+    position: relative;
+}
+
+.front_2_bottel {
+    margin-top: -80px;
+    margin-left: -80px;
+    width: 850px;
+    height: 750px;
+}
+
+.front_info_2 {
+    display: flex
+}
+
+.new-improved-taste {
+    margin-left: -400px;
+    margin-top: 60px;
+    height: 200px;
+    width: 200px;
+}
+
+.front_2nd_righthand {
+    margin-top: 100px;
+    margin-left: -150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ZERO-NAVER-TASTED {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 400x;
+    height: 280px;
+}
+
+.try-it-to-believe-it {
+    margin-top: 25px;
+    width: 350px;
+    height: 25px;
+
+}
+
+.man_inline {
+    display: flex;
+    margin-top: 15px;
+}
+
+.gagt_steve_manpic {
+    margin-left: -35px;
+    width: 240px;
+    height: 100px;
+
+}
+
+.gagt_steve_manpic_title,
+.gagt_ben_manpic_title {
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.title_steve {
+    margin-left: -30px;
+}
+
+.title_ben {
+    margin-left: 20px;
+}
+
+.gagt_ben_manpic {
+    margin-left: 15px;
+    width: 240px;
+    height: 100px;
+
+}
+
+.front_3rd {
+    background-image: url(./material/pictures/Desktop_Background.png);
+    background-position: 50% center;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+
+.front_info_3rd {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Nitro_Pepsi_CAN {
+    margin-left: -30PX;
+    margin-top: 50px;
+    width: 400x;
+    height: 630px;
+}
+
+.Nitro_Logo {
+    margin-top: 190px;
+    height: 280px;
+    width: 400px;
+}
+
+.Nitro_Logo_info {
+    margin-top: -8px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+#Nitro_Logo_button {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.Nitro_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.FRONT_4TH {
+    background-color: #265cc5;
+    width: 100%;
+    height: 650PX;
+}
+
+.FRONT_4TH_UL {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+
+}
+
+.img1 {
+    margin: 40px 0px 0px 49px;
+}
+
+.img1_text {
+    color: white;
+    background-color: #1437bf;
+    text-align: center;
+    padding: 7px;
+    width: 87%;
+    margin-top: -1%;
+    margin-left: 10%;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.right1 {
+    background-image: url("./material/pictures/two_person.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 650PX;
+    margin: 0px 0px 0px 70px;
+    position: absolute;
+    background-position: 57%;
+}
+
+.img2 {
+    width: 58%;
+    margin-top: 58%;
+    margin-left: 42%;
+}
+
+.front_5th {
+    background-image: url(material/pictures/mango-bg.jpg);
+    height: 765px;
+    width: 100%;
+    margin-top: -16px;
+}
+
+.front_5th_info {
+    display: flex;
+
+}
+
+.pepsi_mango_text {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.pepsi_mango_pic {
+    width: 100%;
+    height: 765px;
+}
+
+.front_6th {
+    margin-top: -21px;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.front_7th_info {
+    display: flex;
+}
+
+.front_7th {
+    margin-top: -20px;
+    background-color: #004ca7;
+    background-image: url(material/pictures/front_7_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: -300px;
+    width: 100%;
+    height: 775px;
+}
+
+.twil-can_m {
+    margin-top: 75px;
+    width: 100%;
+    height: 700px;
+}
+
+.thats_what_text {
+    margin-left: -20PX;
+    margin-top: 235px;
+    width: 100%;
+    height: 350px;
+}
+
+.front_8th {
+    margin-top: -16px;
+    background-color: #0065c3;
+    background-image: url(material/pictures/8TH_Front.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 80%;
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+.all_your_8th {
+    line-height: 70px;
+    font-size: 70px;
+}
+
+.front_8th_paragraph {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#front_8th_BUTTON {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 30px;
+}
+
+.front_8th_3_BOTTELS {
+    width: 100%;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.front_8th_right {
+    margin-top: 110px;
+}
+
+.front_8th_info {
+    display: flex;
+    align-items: center;
+
+}
+.front_9{
+    background-color: white;
+    color: #0065c3;
+    width: 100%;
+    height: 274px;
+}
+.front_9_info{
+    font-size: 60px;
+    text-align: center;
+}
+.information_logos{
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+}
+ .twitter_logo{
+    margin-left: 10px;
+    margin-top: 150px;
+ width: 40px;
+ height: 40px;
+} 
+.social-twitter{
+    background-image: url(material/pictures/social-twitter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    margin-top: -20px;
+    width: 250px;
+    height: 250px;
+}
+.social-facbook{
+    background-image: url(material/pictures/social-facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    margin-top: -20px;
+    width: 250px;
+    height: 250px;
+}
+.social-insta{
+    background-image: url(material/pictures/social-instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    margin-top: -20px;
+    width: 250px;
+    height: 250px;
+}
+.social-youtube{
+    background-image: url(material/pictures/social-youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    margin-top: -20px;
+    width: 250px;
+    height: 250px;
+}
+.social-tiktok{
+    background-image: url(material/pictures/social-tiktok.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    margin-top: -20px;
+    width: 250px;
+    height: 250px;
+}
+.fottor{
+    margin-top: -16px;
+    background-color:  #0065c3;
+    height: 250px;
+    width: 100%;
+}
+ .fottor_alignment{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+.pepsi_logo_fottor{
+width: 150px;
+height: 150px;
+margin-top: 50px;
+margin-left: -20px;
+}
+
+.logos_info_flex1{
+    display: flex;
+
+}
+.logos_info{
+    margin-left: 25PX;
+    width: 35px;
+    height: 35px;
+}
